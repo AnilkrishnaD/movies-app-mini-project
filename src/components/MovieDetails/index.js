@@ -138,6 +138,7 @@ class MovieDetails extends Component {
       voteAverage,
       voteCount,
     } = movieDetailsList
+    // console.log
     const inHours = Math.floor(runtime / 60)
     const inMinutes = runtime % 60
     const runTimeInHoursAndMinutes = `${inHours}h ${inMinutes}m`

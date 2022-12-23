@@ -95,6 +95,7 @@
   color: #ffffff;
   padding: 8px 20px 8px 20px;
   margin-top: 20px;
+  cursor: pointer;
 }
 @media (min-width: 768px) {
   .login-container {

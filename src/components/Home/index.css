@@ -62,9 +62,11 @@ body {
   padding-right: 32px;
   padding-left: 32px;
 }
-.slick-prev:before,
+.slick-prev:before {
+  background-color: #171f46;
+}
 .slick-next:before {
-  color: blue;
+  background-color: #171f46;
 }
 
 .movie-section-name {
